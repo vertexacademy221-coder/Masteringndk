@@ -1,0 +1,3 @@
+/home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/.cxx/Debug/o5p395h2/arm64-v8a/CMakeFiles/native-lib.dir
+/home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/.cxx/Debug/o5p395h2/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/.cxx/Debug/o5p395h2/arm64-v8a/CMakeFiles/rebuild_cache.dir

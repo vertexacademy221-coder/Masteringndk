@@ -1,0 +1,7 @@
+vertexacademy.com.masteringndk.app-pngs-0 /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/build/generated/res/pngs/release
+vertexacademy.com.masteringndk.app-resValues-1 /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/build/generated/res/resValues/release
+vertexacademy.com.masteringndk.app-packageReleaseResources-2 /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+vertexacademy.com.masteringndk.app-packageReleaseResources-3 /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+vertexacademy.com.masteringndk.app-merged_res-4 /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/build/intermediates/merged_res/release
+vertexacademy.com.masteringndk.app-main-5 /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/res
+vertexacademy.com.masteringndk.app-release-6 /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/release/res

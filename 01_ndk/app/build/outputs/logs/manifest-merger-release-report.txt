@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:4:29-54
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml
+uses-feature#0x00030002
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:6:5-53
+	android:glEsVersion
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:6:19-51
+application
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:7:5-24:19
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:7:5-24:19
+	android:extractNativeLibs
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:7:18-50
+	android:largeHeap
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:9:9-33
+	android:icon
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:8:9-38
+	android:allowBackup
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:10:9-35
+activity#vertexacademy.com.masteringndk.App1Activity
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:11:9-23:20
+	android:screenOrientation
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:16:13-47
+	android:label
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:18:13-45
+	android:launchMode
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:14:13-44
+	android:exported
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:13:13-36
+	android:configChanges
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:17:13-65
+	android:theme
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:15:13-71
+	android:name
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:12:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/src/main/AndroidManifest.xml
