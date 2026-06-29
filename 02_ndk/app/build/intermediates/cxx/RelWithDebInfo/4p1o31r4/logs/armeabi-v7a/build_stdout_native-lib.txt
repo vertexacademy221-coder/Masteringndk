@@ -1,2 +1,0 @@
-ninja: Entering directory `/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/armeabi-v7a'
-ninja: no work to do.
