@@ -1,0 +1,17 @@
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/CMakeFiles/native-lib.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/CMakeFiles/app-glue.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/CMakeFiles/edit_cache.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/CMakeFiles/rebuild_cache.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/CMakeFiles/list_install_components.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/CMakeFiles/install.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/CMakeFiles/install/local.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/CMakeFiles/install/strip.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/third-party/openal/CMakeFiles/alsoft.common.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/third-party/openal/CMakeFiles/OpenAL.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/third-party/openal/CMakeFiles/alsoft.excommon.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/third-party/openal/CMakeFiles/edit_cache.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/third-party/openal/CMakeFiles/rebuild_cache.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/third-party/openal/CMakeFiles/list_install_components.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/third-party/openal/CMakeFiles/install.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/third-party/openal/CMakeFiles/install/local.dir
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/x86_64/third-party/openal/CMakeFiles/install/strip.dir

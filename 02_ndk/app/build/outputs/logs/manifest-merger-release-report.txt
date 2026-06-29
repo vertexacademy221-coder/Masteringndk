@@ -1,0 +1,209 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:3:1-28:12
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:3:1-28:12
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:3:1-28:12
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:3:1-28:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/bullydd/.gradle/caches/transforms-3/0502812f13a8fe4cbb3aef99a412d8d7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/bullydd/.gradle/caches/transforms-3/b48a0594636d3fc0f3ebb0d6e12828d1/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/bullydd/.gradle/caches/transforms-3/b297d20c493e43375d93ab8e573f5e8b/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /home/bullydd/.gradle/caches/transforms-3/94364007634ec7a4aa6b77a9326b8956/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bullydd/.gradle/caches/transforms-3/c3ed9d8268e05a6ef94ae0db89de1814/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/bullydd/.gradle/caches/transforms-3/1a528194be27580e3547bdf3a6c53434/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bullydd/.gradle/caches/transforms-3/8b45264b67193f67e5667dc731b018cb/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bullydd/.gradle/caches/transforms-3/4c4c10262aceb4770d5c668ba0dd11d1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/bullydd/.gradle/caches/transforms-3/5076ed2d22d4265e25c2ac92ed1b0e7e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/bullydd/.gradle/caches/transforms-3/92f6da0890cc419dc2f5263f21d61fb0/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/bullydd/.gradle/caches/transforms-3/4e1b34679cd2322df7630d9708949004/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/bullydd/.gradle/caches/transforms-3/68f4f6fe11f3c83f5861607477dfe8b9/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bullydd/.gradle/caches/transforms-3/e2abd80829f06f33e4cf6f8ed0b65b7a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/bullydd/.gradle/caches/transforms-3/f5066128f2ddfef2342f3b55be8ff1b5/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bullydd/.gradle/caches/transforms-3/ee17f1a8fb27c5a818acebdcdb41ab3e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/bullydd/.gradle/caches/transforms-3/1c9d0e239c39bf7cf87c70df0354ca37/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/bullydd/.gradle/caches/transforms-3/396b6ffdd9c81111b64ef6a2c4d7fdd6/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bullydd/.gradle/caches/transforms-3/91f55f3800a0f9825cccadf20aa3249f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bullydd/.gradle/caches/transforms-3/4ba5f55902ae8b4322a17e3b6648ad28/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullydd/.gradle/caches/transforms-3/1392b118f7e994f286dae180fe307f08/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bullydd/.gradle/caches/transforms-3/a07546655a13a0c96b9addb36885efc5/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/bullydd/.gradle/caches/transforms-3/ff71f35d0760504ef8d7b5d9bd243360/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/bullydd/.gradle/caches/transforms-3/d0aa091ea21ca9e89127505e64407500/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bullydd/.gradle/caches/transforms-3/06a9a89e02c030ebe2a1aa9d9bab0348/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/bullydd/.gradle/caches/transforms-3/aa61db2b44d8fb564f619a54019311dd/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:5:11-36
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:4:11-34
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml
+uses-feature#0x00030002
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:8:5-53
+	android:glEsVersion
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:8:19-51
+application
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:9:5-27:19
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:9:5-27:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bullydd/.gradle/caches/transforms-3/91f55f3800a0f9825cccadf20aa3249f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bullydd/.gradle/caches/transforms-3/91f55f3800a0f9825cccadf20aa3249f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullydd/.gradle/caches/transforms-3/1392b118f7e994f286dae180fe307f08/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullydd/.gradle/caches/transforms-3/1392b118f7e994f286dae180fe307f08/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:10:9-41
+	android:largeHeap
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:12:9-33
+	android:icon
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:11:9-38
+	android:allowBackup
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:13:9-35
+activity#com.vertexacademy.masteringndk.App1Activity
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:14:9-26:20
+	android:screenOrientation
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:19:17-51
+	android:label
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:16:17-49
+	android:launchMode
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:18:17-48
+	android:exported
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:17:17-40
+	android:configChanges
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:20:17-67
+	android:theme
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:21:17-75
+	android:name
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:15:17-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:23:17-68
+	android:name
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml
+INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/bullydd/.gradle/caches/transforms-3/0502812f13a8fe4cbb3aef99a412d8d7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/bullydd/.gradle/caches/transforms-3/0502812f13a8fe4cbb3aef99a412d8d7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/bullydd/.gradle/caches/transforms-3/b48a0594636d3fc0f3ebb0d6e12828d1/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/bullydd/.gradle/caches/transforms-3/b48a0594636d3fc0f3ebb0d6e12828d1/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/bullydd/.gradle/caches/transforms-3/b297d20c493e43375d93ab8e573f5e8b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/bullydd/.gradle/caches/transforms-3/b297d20c493e43375d93ab8e573f5e8b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /home/bullydd/.gradle/caches/transforms-3/94364007634ec7a4aa6b77a9326b8956/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /home/bullydd/.gradle/caches/transforms-3/94364007634ec7a4aa6b77a9326b8956/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bullydd/.gradle/caches/transforms-3/c3ed9d8268e05a6ef94ae0db89de1814/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bullydd/.gradle/caches/transforms-3/c3ed9d8268e05a6ef94ae0db89de1814/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/bullydd/.gradle/caches/transforms-3/1a528194be27580e3547bdf3a6c53434/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/bullydd/.gradle/caches/transforms-3/1a528194be27580e3547bdf3a6c53434/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bullydd/.gradle/caches/transforms-3/8b45264b67193f67e5667dc731b018cb/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bullydd/.gradle/caches/transforms-3/8b45264b67193f67e5667dc731b018cb/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bullydd/.gradle/caches/transforms-3/4c4c10262aceb4770d5c668ba0dd11d1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bullydd/.gradle/caches/transforms-3/4c4c10262aceb4770d5c668ba0dd11d1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/bullydd/.gradle/caches/transforms-3/5076ed2d22d4265e25c2ac92ed1b0e7e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/bullydd/.gradle/caches/transforms-3/5076ed2d22d4265e25c2ac92ed1b0e7e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/bullydd/.gradle/caches/transforms-3/92f6da0890cc419dc2f5263f21d61fb0/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/bullydd/.gradle/caches/transforms-3/92f6da0890cc419dc2f5263f21d61fb0/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/bullydd/.gradle/caches/transforms-3/4e1b34679cd2322df7630d9708949004/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/bullydd/.gradle/caches/transforms-3/4e1b34679cd2322df7630d9708949004/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /home/bullydd/.gradle/caches/transforms-3/68f4f6fe11f3c83f5861607477dfe8b9/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/bullydd/.gradle/caches/transforms-3/68f4f6fe11f3c83f5861607477dfe8b9/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bullydd/.gradle/caches/transforms-3/e2abd80829f06f33e4cf6f8ed0b65b7a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bullydd/.gradle/caches/transforms-3/e2abd80829f06f33e4cf6f8ed0b65b7a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/bullydd/.gradle/caches/transforms-3/f5066128f2ddfef2342f3b55be8ff1b5/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/bullydd/.gradle/caches/transforms-3/f5066128f2ddfef2342f3b55be8ff1b5/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bullydd/.gradle/caches/transforms-3/ee17f1a8fb27c5a818acebdcdb41ab3e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bullydd/.gradle/caches/transforms-3/ee17f1a8fb27c5a818acebdcdb41ab3e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/bullydd/.gradle/caches/transforms-3/1c9d0e239c39bf7cf87c70df0354ca37/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/bullydd/.gradle/caches/transforms-3/1c9d0e239c39bf7cf87c70df0354ca37/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/bullydd/.gradle/caches/transforms-3/396b6ffdd9c81111b64ef6a2c4d7fdd6/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/bullydd/.gradle/caches/transforms-3/396b6ffdd9c81111b64ef6a2c4d7fdd6/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bullydd/.gradle/caches/transforms-3/91f55f3800a0f9825cccadf20aa3249f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bullydd/.gradle/caches/transforms-3/91f55f3800a0f9825cccadf20aa3249f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bullydd/.gradle/caches/transforms-3/4ba5f55902ae8b4322a17e3b6648ad28/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bullydd/.gradle/caches/transforms-3/4ba5f55902ae8b4322a17e3b6648ad28/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullydd/.gradle/caches/transforms-3/1392b118f7e994f286dae180fe307f08/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bullydd/.gradle/caches/transforms-3/1392b118f7e994f286dae180fe307f08/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bullydd/.gradle/caches/transforms-3/a07546655a13a0c96b9addb36885efc5/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bullydd/.gradle/caches/transforms-3/a07546655a13a0c96b9addb36885efc5/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/bullydd/.gradle/caches/transforms-3/ff71f35d0760504ef8d7b5d9bd243360/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/bullydd/.gradle/caches/transforms-3/ff71f35d0760504ef8d7b5d9bd243360/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/bullydd/.gradle/caches/transforms-3/d0aa091ea21ca9e89127505e64407500/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/bullydd/.gradle/caches/transforms-3/d0aa091ea21ca9e89127505e64407500/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bullydd/.gradle/caches/transforms-3/06a9a89e02c030ebe2a1aa9d9bab0348/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bullydd/.gradle/caches/transforms-3/06a9a89e02c030ebe2a1aa9d9bab0348/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/bullydd/.gradle/caches/transforms-3/aa61db2b44d8fb564f619a54019311dd/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/bullydd/.gradle/caches/transforms-3/aa61db2b44d8fb564f619a54019311dd/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bullydd/.gradle/caches/transforms-3/91f55f3800a0f9825cccadf20aa3249f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bullydd/.gradle/caches/transforms-3/91f55f3800a0f9825cccadf20aa3249f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/bullydd/.gradle/caches/transforms-3/4663d11a99f7dfad8ada468b7296e908/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.vertexacademy.masteringndk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.vertexacademy.masteringndk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/bullydd/.gradle/caches/transforms-3/c8cbadb888743a0770bddc18437edfda/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/bullydd/.gradle/caches/transforms-3/f8ea3e380e6f9e5b85178fb784b9b12a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

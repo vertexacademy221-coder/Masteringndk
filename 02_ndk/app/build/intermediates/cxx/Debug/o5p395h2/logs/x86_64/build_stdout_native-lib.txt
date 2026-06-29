@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/Debug/o5p395h2/x86_64'
+ninja: no work to do.

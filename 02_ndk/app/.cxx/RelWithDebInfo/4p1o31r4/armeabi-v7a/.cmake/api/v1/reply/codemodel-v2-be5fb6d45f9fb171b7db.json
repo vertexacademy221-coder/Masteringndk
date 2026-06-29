@@ -1,0 +1,131 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "third-party/openal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.openal-RelWithDebInfo-178099c0a6e90a2c3fef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third-party/openal",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "native-lib",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "OpenAL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenAL::@c7389a3ac91fc6f83038",
+					"jsonFile" : "target-OpenAL-RelWithDebInfo-deb961d2d9e9dfb9ee55.json",
+					"name" : "OpenAL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "alsoft.common::@c7389a3ac91fc6f83038",
+					"jsonFile" : "target-alsoft.common-RelWithDebInfo-f3b1078f757dca81ca10.json",
+					"name" : "alsoft.common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "alsoft.excommon::@c7389a3ac91fc6f83038",
+					"jsonFile" : "target-alsoft.excommon-RelWithDebInfo-12da2051c941f60afcc7.json",
+					"name" : "alsoft.excommon",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app-glue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app-glue-RelWithDebInfo-254120e3ece5274945a8.json",
+					"name" : "app-glue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "native-lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-native-lib-RelWithDebInfo-eb8f349c6ca0e041d95a.json",
+					"name" : "native-lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/armeabi-v7a",
+		"source" : "/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

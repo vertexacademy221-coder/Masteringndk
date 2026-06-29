@@ -1,0 +1,4 @@
+#Mon Jun 29 22:58:44 GMT 2026
+base.0=/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

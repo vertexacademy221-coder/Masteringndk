@@ -1,0 +1,98 @@
+-- The C compiler identification is Clang 14.0.6
+-- The CXX compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/bullydd/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/bullydd/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Performing Test HAVE_STDC_FORMAT_MACROS
+-- Performing Test HAVE_STDC_FORMAT_MACROS - Success
+-- Performing Test HAVE_LIBATOMIC
+-- Performing Test HAVE_LIBATOMIC - Success
+-- Looking for __android_log_print in log
+-- Looking for __android_log_print in log - found
+-- Performing Test HAVE_WNO_CXX20_ATTR_EXT
+-- Performing Test HAVE_WNO_CXX20_ATTR_EXT - Success
+-- Performing Test HAVE_WNO_INTERFERENCE_SIZE
+-- Performing Test HAVE_WNO_INTERFERENCE_SIZE - Failed
+-- Performing Test HAVE_FNO_MATH_ERRNO
+-- Performing Test HAVE_FNO_MATH_ERRNO - Success
+-- Performing Test HAVE_MSSE2_SWITCH
+-- Performing Test HAVE_MSSE2_SWITCH - Success
+-- Looking for xmmintrin.h
+-- Looking for xmmintrin.h - found
+-- Looking for emmintrin.h
+-- Looking for emmintrin.h - found
+-- Looking for pmmintrin.h
+-- Looking for pmmintrin.h - found
+-- Looking for smmintrin.h
+-- Looking for smmintrin.h - found
+-- Looking for arm_neon.h
+-- Looking for arm_neon.h - not found
+-- Performing Test HAVE_SSE_INTRINSICS
+-- Performing Test HAVE_SSE_INTRINSICS - Success
+-- Looking for cpuid.h
+-- Looking for cpuid.h - found
+-- Looking for intrin.h
+-- Looking for intrin.h - not found
+-- Looking for guiddef.h
+-- Looking for guiddef.h - not found
+-- Looking for pow in m
+-- Looking for pow in m - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - not found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Performing Test HAVE_GCC_GET_CPUID
+-- Performing Test HAVE_GCC_GET_CPUID - Success
+-- Looking for proc_pidpath
+-- Looking for proc_pidpath - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test HAVE_PTHREAD
+-- Performing Test HAVE_PTHREAD - Success
+-- Looking for pthread_setschedparam
+-- Looking for pthread_setschedparam - found
+-- Looking for include files pthread.h, pthread_np.h
+-- Looking for include files pthread.h, pthread_np.h - not found
+-- Looking for pthread_setname_np
+-- Looking for pthread_setname_np - found
+-- Checking for module 'dbus-1'
+--   Found dbus-1, version 1.14.10
+-- Checking for module 'libpipewire-0.3>=0.3.23'
+--   Found libpipewire-0.3, version 1.0.5
+-- Could NOT find PulseAudio (missing: PULSEAUDIO_LIBRARY PULSEAUDIO_INCLUDE_DIR) 
+-- Could NOT find ALSA (missing: ALSA_LIBRARY ALSA_INCLUDE_DIR) 
+-- Could NOT find OSS (missing: OSS_INCLUDE_DIR) 
+-- Could NOT find AudioIO (missing: AUDIOIO_INCLUDE_DIR) 
+-- Could NOT find JACK (missing: JACK_LIBRARY JACK_INCLUDE_DIR) 
+-- Could NOT find oboe (missing: oboe_DIR)
+-- Could NOT find Oboe (missing: OBOE_LIBRARY OBOE_INCLUDE_DIR) 
+-- Found OpenSL: /home/bullydd/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/21/libOpenSLES.so  
+-- Could NOT find PortAudio (missing: PORTAUDIO_LIBRARY PORTAUDIO_INCLUDE_DIR) 
+-- Found Git: /usr/bin/git (found version "2.43.0") 
+-- 
+-- Building OpenAL with support for the following backends:
+--     PipeWire, OpenSL, WaveFile, Null
+-- 
+-- Building with support for CPU extensions:
+--     Default, SSE, SSE2, SSE3, SSE4.1
+-- 
+-- Embedding HRTF datasets
+-- 
+-- Installing library and headers
+-- Installing sample configuration
+-- Installing HRTF data files
+-- Installing AmbDec presets
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/Debug/o5p395h2/x86_64

@@ -1,0 +1,11 @@
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/CMakeLists.txt
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/CMakeLists.txt
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/OpenALConfig.cmake.in
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/cmake/FindALSA.cmake
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/cmake/FindAudioIO.cmake
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/cmake/FindJACK.cmake
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/cmake/FindOSS.cmake
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/cmake/FindOboe.cmake
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/cmake/FindOpenSL.cmake
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/cmake/FindPortAudio.cmake
+/home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/src/main/cpp/third-party/openal/cmake/FindPulseAudio.cmake

@@ -1,0 +1,4 @@
+/home/bullydd/Android/Sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /home/bullydd/Documents/Android/vertex-academy/Masteringndk/02_ndk/app/.cxx/Debug/o5p395h2/x86_64 \
+  native-lib
