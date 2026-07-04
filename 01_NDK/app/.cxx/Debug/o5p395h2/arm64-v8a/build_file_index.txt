@@ -1,0 +1,1 @@
+/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/cpp/CMakeLists.txt

@@ -1,0 +1,51 @@
+plugins{
+	id "com.android.application"
+}
+
+dependencies {
+	implementation "androidx.appcompat:appcompat:1.6.1"
+}
+
+
+android{
+	namespace "com.vertexacademy.masteringndk"
+	compileSdk 34
+
+	defaultConfig{
+		applicationId "com.vertexacademy.masteringndk"
+		minSdk 21
+		targetSdk 34
+
+		versionCode 1
+		versionName "1.0"
+
+		ndk {
+			abiFilters "arm64-v8a"
+		}
+
+		externalNativeBuild{
+			cmake{
+				cppFlags "-std=c++17"
+
+        arguments "-DANDROID_PLATFORM=android-24",
+                  "-DCMAKE_SYSTEM_VERSION=22",
+                  "-DANDROID_PLATFORM_LEVEL=24"
+			}
+		}
+	}
+
+	externalNativeBuild{
+		cmake {
+			path "src/main/cpp/CMakeLists.txt"
+			version "3.22.1"
+		}
+	}
+
+	sourceSets{
+		main{
+			jniLibs.srcDirs = ["src/main/jniLibs"]
+		}
+	}
+}
+
+

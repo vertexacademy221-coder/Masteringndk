@@ -1,0 +1,5 @@
+# ninja log v5
+0	13	1782557718801111096	CMakeFiles/native-lib.dir/native-lib.cpp.o	5cead7089b25d32e
+13	54	1782557718842111157	/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/build/intermediates/cxx/Debug/o5p395h2/obj/arm64-v8a/libnative-lib.so	a2a632c39532acd0
+0	1789	1782558088633585099	/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/build/intermediates/cxx/Debug/o5p395h2/obj/arm64-v8a/libnative-lib.so	a2a632c39532acd0
+63	6104	1782685118168380114	/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/build/intermediates/cxx/Debug/o5p395h2/obj/arm64-v8a/libnative-lib.so	a2a632c39532acd0

@@ -1,0 +1,2 @@
+com.vertexacademy.masteringndk:string/app_name = 0x7f020000
+com.vertexacademy.masteringndk:drawable/icon = 0x7f010000

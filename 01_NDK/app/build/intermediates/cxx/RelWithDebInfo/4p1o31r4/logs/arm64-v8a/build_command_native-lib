@@ -1,0 +1,4 @@
+/home/astmin/Android/Sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/.cxx/RelWithDebInfo/4p1o31r4/arm64-v8a \
+  native-lib

@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vertexacademy.masteringndk"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Require OpenGLES version 3.2 -->
+12    <uses-feature
+12-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:6:2-74
+13        android:glEsVersion="0x00030002"
+13-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:6:16-48
+14        android:required="true" />
+14-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:6:49-72
+15
+16    <application
+16-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:7:2-24:16
+17        android:allowBackup="true"
+17-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:12:3-29
+18        android:extractNativeLibs="true"
+19        android:icon="@drawable/icon"
+19-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:9:3-32
+20        android:installLocation="preferExternal"
+20-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:10:3-43
+21        android:label="@string/app_name"
+21-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:8:3-35
+22        android:largeHeap="true" >
+22-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:11:3-27
+23        <activity
+23-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:13:2-23:14
+24            android:name="com.vertexacademy.masteringndk.App1Activity"
+24-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:13:12-40
+25            android:configChanges="orientation | keyboardHidden"
+25-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:17:3-55
+26            android:exported="true"
+26-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:14:3-26
+27            android:label="@string/app_name"
+27-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:18:3-35
+28            android:launchMode="singleTask"
+28-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:15:3-34
+29            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+29-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:16:3-61
+30            <intent-filter>
+30-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:19:3-22:19
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:20:4-55
+31-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:20:12-53
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:21:4-63
+33-->/home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/AndroidManifest.xml:21:14-61
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

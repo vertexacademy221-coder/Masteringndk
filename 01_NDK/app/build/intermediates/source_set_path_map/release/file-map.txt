@@ -1,0 +1,7 @@
+com.vertexacademy.masteringndk.app-pngs-0 /home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/build/generated/res/pngs/release
+com.vertexacademy.masteringndk.app-resValues-1 /home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/build/generated/res/resValues/release
+com.vertexacademy.masteringndk.app-packageReleaseResources-2 /home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.vertexacademy.masteringndk.app-packageReleaseResources-3 /home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.vertexacademy.masteringndk.app-merged_res-4 /home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/build/intermediates/merged_res/release
+com.vertexacademy.masteringndk.app-main-5 /home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/main/res
+com.vertexacademy.masteringndk.app-release-6 /home/astmin/Documents/Android/OpenGLES/vertex-academy/Mastering-Android-NDK/01_NDK/app/src/release/res
