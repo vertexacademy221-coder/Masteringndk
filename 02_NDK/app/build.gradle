@@ -44,7 +44,7 @@ android{
 
 	sourceSets{
 		main{
-			jniLibs.srcDirs = ["src/main/jniLibs"]
+			jniLibs.srcDirs = ["src/main/cpp/third-party/FreeImage/libs"]
 		}
 	}
 }

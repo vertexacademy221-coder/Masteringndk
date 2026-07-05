@@ -24,12 +24,12 @@ set(OPENSSL_ROOT_DIR "${CMAKE_SOURCE_DIR}/third-party/openssl")
 
 add_library(crypto_static STATIC IMPORTED)
 set_target_properties(crypto_static PROPERTIES
-    IMPORTED_LOCATION "${OPENSSL_ROOT_DIR}/libs/arm64-v8a/libcrypto.a"
+    IMPORTED_LOCATION "${OPENSSL_ROOT_DIR}/libs/${ANDROID_ABI}/libcrypto.a"
 )
 
 add_library(ssl_static STATIC IMPORTED)
 set_target_properties(ssl_static PROPERTIES
-    IMPORTED_LOCATION "${OPENSSL_ROOT_DIR}/libs/arm64-v8a/libssl.a"
+    IMPORTED_LOCATION "${OPENSSL_ROOT_DIR}/libs/${ANDROID_ABI}/libssl.a"
 )
 
 include_directories("${OPENSSL_ROOT_DIR}/include")
@@ -37,14 +37,15 @@ include_directories("${OPENSSL_ROOT_DIR}/include")
 # Create Alias library name for libcurl
 add_library(OpenSSL::Crypto STATIC IMPORTED)
 
+# ${ANDROID_ABI} is automatically provide by Gradle
 set_target_properties(OpenSSL::Crypto PROPERTIES
-    IMPORTED_LOCATION "${OPENSSL_ROOT_DIR}/libs/arm64-v8a/libcrypto.a"
+    IMPORTED_LOCATION "${OPENSSL_ROOT_DIR}/libs/${ANDROID_ABI}/libcrypto.a"
     INTERFACE_INCLUDE_DIRECTORIES "${OPENSSL_ROOT_DIR}/include"
 )
 
 add_library(OpenSSL::SSL STATIC IMPORTED)
 set_target_properties(OpenSSL::SSL PROPERTIES
-    IMPORTED_LOCATION "${OPENSSL_ROOT_DIR}/libs/arm64-v8a/libssl.a"
+    IMPORTED_LOCATION "${OPENSSL_ROOT_DIR}/libs/${ANDROID_ABI}/libssl.a"
     INTERFACE_INCLUDE_DIRECTORIES "${OPENSSL_ROOT_DIR}/include"
 )
 
@@ -84,6 +85,24 @@ set(OPENSSL_CRYPTO_LIBRARY crypto_static CACHE FILEPATH "" FORCE)
 set(OPENSSL_SSL_LIBRARY ssl_static CACHE FILEPATH "" FORCE)
 
 add_subdirectory(third-party/curl)
+
+
+# =========================================================
+# FreeImage CONFIGURATION
+# =========================================================
+
+set (FREEIMAGE_DIR "${CMAKE_SOURCE_DIR}/third-party/FreeImage")
+
+add_library (
+    freeimage
+    SHARED
+    IMPORTED
+)
+
+set_target_properties (
+    freeimage 
+    PROPERTIES 
+    IMPORTED_LOCATION "${FREEIMAGE_DIR}/libs/${ANDROID_ABI}/libfreeimage.so")
 
 
 # Specify the name of target native libray. 
@@ -136,6 +155,7 @@ target_link_libraries(
     libcurl
     ssl_static
     crypto_static
+    freeimage
     ${log-lib}
 )
 
