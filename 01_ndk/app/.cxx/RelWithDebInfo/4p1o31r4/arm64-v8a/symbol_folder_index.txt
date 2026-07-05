@@ -1,1 +1,0 @@
-/home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/build/intermediates/cxx/RelWithDebInfo/4p1o31r4/obj/arm64-v8a

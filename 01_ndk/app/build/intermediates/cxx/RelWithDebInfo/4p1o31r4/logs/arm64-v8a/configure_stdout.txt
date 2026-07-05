@@ -1,3 +1,0 @@
--- Configuring done
--- Generating done
--- Build files have been written to: /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/.cxx/RelWithDebInfo/4p1o31r4/arm64-v8a

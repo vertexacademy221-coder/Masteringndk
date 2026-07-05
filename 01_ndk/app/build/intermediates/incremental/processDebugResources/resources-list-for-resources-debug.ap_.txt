@@ -1,1 +1,0 @@
-/home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/build/intermediates/merged_res/debug/drawable_icon.png.flat /home/bullydd/Documents/Android/vertex-academy/Mastering-ndk/01_ndk/app/build/intermediates/merged_res/debug/values_values.arsc.flat 
