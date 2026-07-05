@@ -34,8 +34,7 @@ set_target_properties(ssl_static PROPERTIES
 
 include_directories("${OPENSSL_ROOT_DIR}/include")
 
-# --- ASTUCE POUR CONTOURNER LE COMPORTEMENT DE FIND_PACKAGE DE CURL ---
-# On crée les alias/cibles attendus par les modules CMake internes de curl
+# Create Alias library name for libcurl
 add_library(OpenSSL::Crypto STATIC IMPORTED)
 
 set_target_properties(OpenSSL::Crypto PROPERTIES
@@ -53,7 +52,7 @@ set_target_properties(OpenSSL::SSL PROPERTIES
 set(OPENSSL_FOUND TRUE CACHE BOOL "" FORCE)
 set(OPENSSL_INCLUDE_DIR "${OPENSSL_ROOT_DIR}/include" CACHE PATH "" FORCE)
 set(OPENSSL_LIBRARIES OpenSSL::SSL OpenSSL::Crypto CACHE STRING "" FORCE)
-# ==============================================================================
+
 
 # =========================================================
 # LIBCURL CONFIGURATION WITH SSL
