@@ -108,6 +108,8 @@ add_library(
     native-lib
     SHARED
     "${CMAKE_SOURCE_DIR}/native-lib.cpp"
+    "${CMAKE_SOURCE_DIR}/FT_Utils.cpp"
+    "${CMAKE_SOURCE_DIR}/FIEngine.cpp" 
 )
 
 # For the header files of our native library
@@ -144,6 +146,12 @@ find_library(
     log
 )
 
+
+find_library(
+    android-lib 
+    android
+)
+
 # Links NDK library against our Native library
 target_link_libraries(
     native-lib
@@ -154,4 +162,5 @@ target_link_libraries(
     ssl_static
     crypto_static
     ${log-lib}
+    ${android-lib}
 )

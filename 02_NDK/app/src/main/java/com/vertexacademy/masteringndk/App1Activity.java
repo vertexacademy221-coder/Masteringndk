@@ -15,9 +15,11 @@ public class App1Activity extends AppCompatActivity
     @Override protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        audioEngine = new AudioEngine();
+
         //Log.d(TAG, "onCreate method call");
 
-        Button playButton = new Button(this);
+        /*Button playButton = new Button(this);
         playButton.setText("Jouer le son OpenAL (440Hz)");
         setContentView(playButton);
 
@@ -32,16 +34,19 @@ public class App1Activity extends AppCompatActivity
         // Evenement au clis sur le bouton
         playButton.setOnClickListener(v -> {
             audioEngine.playTestSound();
-        });
+        });*/
+        setContentView(R.layout.main);
+        audioEngine.renderFont(getAssets());
+
     }
 
     @Override protected void onDestroy()
     {
         super.onDestroy();
         //Log.d(TAG, "onDestroy method call");
-        if (audioEngine != null){
+        /*if (audioEngine != null){
             audioEngine.shutdownOpenAL();
-        }
+        }*/
     }
 
 }

@@ -9,4 +9,5 @@ public class AudioEngine {
     public static native boolean initOpenAL();
     public static native void playTestSound();
     public static native void shutdownOpenAL();
+    public static native void renderFont(Object assetManager);
 }

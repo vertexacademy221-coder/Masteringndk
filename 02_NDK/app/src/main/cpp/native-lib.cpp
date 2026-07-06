@@ -1,24 +1,14 @@
 #include <jni.h>
+#include <android/asset_manager.h>
+#include <android/asset_manager_jni.h>
 #include <android/log.h>
 #include <AL/al.h>
 #include <AL/alc.h>
-#include <curl/curl.h>
 
 #include <cmath>
 #include <vector>
 
-
-extern "C"
-{
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
-}
-
-extern "C"
-{
-#include <ft2build.h>
-#include FT_FREETYPE_H // Équivaut à inclure <freetype/freetype.h>
-}
+#include "FIEngine.h"
 
 #define LOG_TAG "NDK-AudioEngine"
 #define LOGI(...)__android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
@@ -34,58 +24,52 @@ ALuint      audio_source = 0;
 
 /* ============== Function prototype =======*/
 
-void initCurl();
-size_t MemoryCallback( void* P, size_t Size, size_t Num, void* );
-void initFreeTypeExample();
 
-/* ============ Function definition ======= */
-
-void initFreeTypeExample() {
-    FT_Library library;
-    FT_Error error = FT_Init_FreeType(&library);
-    
-    if (error) {
-        // Erreur d'initialisation
-    }
-    
-    // Votre code pour charger des polices (.ttf) ici...
-    
-    FT_Done_FreeType(library);
-}
-
-size_t MemoryCallback( void* P, size_t Size, size_t Num, void* )
+extern "C"
+JNIEXPORT void JNICALL
+Java_com_vertexacademy_masteringndk_AudioEngine_renderFont(JNIEnv *env, jobject thiz, jobject assetManager)
 {
-    if ( !P ) {
-        if (Num == 0){
-            LOGE("There is no data");
-        }
-        return 0;
+    // 1. Récupérer le pointeur natif vers l'AAssetManager d'Android
+    AAssetManager* mgr = AAssetManager_fromJava(env, assetManager);
+    if(mgr == nullptr)
+    {
+        LOGE("Failed to get AssetManager instance from java");
+        return;
     }
-    LOGI( "%s\n", (char*)P );
-    return 1;
-}
+    
+    // 2. Ouvrir le fichier font.ttf situé dans le dossier assets
+    AAsset* asset = AAssetManager_open(mgr, "font.ttf", AASSET_MODE_BUFFER);
+    if(asset == nullptr)
+    {
+        LOGE ("Failed to load \'font.ttf\' ");
+        return;
+    }
 
+    // 3. Lire la taille du fichier et allouer le conteneur vector
+    off_t fileSize = AAsset_getLength(asset);
+    std::vector<char> fontBuffer(fileSize);
 
-void initCurl(){
-    LOGI("Initializing CURL");
+    // 4. Copier les données binaires du ttf dans notre vector
+    int bytesRead = AAsset_read(asset, fontBuffer.data(), fileSize);
 
-    CURL* Curl = curl_easy_init();
-    curl_easy_setopt( Curl, CURLOPT_URL, "http://example.com/" );
-    curl_easy_setopt( Curl, CURLOPT_FOLLOWLOCATION, 1 );
-    curl_easy_setopt( Curl, CURLOPT_FAILONERROR, true );
-    curl_easy_setopt( Curl, CURLOPT_WRITEFUNCTION, &MemoryCallback );
-    curl_easy_setopt( Curl, CURLOPT_WRITEDATA, 0 );
-    curl_easy_perform( Curl );
-    curl_easy_cleanup( Curl );
+    // Fermer l'asset dès que la lecture est terminée
+    AAsset_close(asset);
+
+    if (bytesRead <= 0) {
+       LOGE("Error while reading font type");
+        return;
+    }
+
+    LOGI("Font \'font.ttf\' successfully loaded: (%d octets)", bytesRead);
+
+    fiengine::TestFontRendering(fontBuffer);
 }
 
 extern "C"
 JNIEXPORT jboolean JNICALL
 Java_com_vertexacademy_masteringndk_AudioEngine_initOpenAL(JNIEnv *env, jobject thiz)
 {
-    // Init CURL
-    initCurl();
-    
+
     // 1. Ouvrir le peripherique audio par defaut d'android
     openal_device = alcOpenDevice(nullptr);
     if (!openal_device){
