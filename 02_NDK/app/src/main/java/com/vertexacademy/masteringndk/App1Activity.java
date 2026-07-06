@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 import android.widget.Button;
+import android.graphics.Typeface;
+import android.widget.TextView;
 
 
 public class App1Activity extends AppCompatActivity 
@@ -35,9 +37,23 @@ public class App1Activity extends AppCompatActivity
         playButton.setOnClickListener(v -> {
             audioEngine.playTestSound();
         });*/
-        setContentView(R.layout.main);
+        
+        // ======== JNI Function Call ==========
+        // Initialize and Read Font police through C++ code
+        // This doesn't interfer with Java code
         audioEngine.renderFont(getAssets());
 
+        // Now render the view    
+        setContentView(R.layout.main); 
+
+        // Get TextView Object define in layout/main.xml
+        TextView textView = findViewById(R.id.tv);
+
+        // Get the font file store in assets folder packed in our apk
+        Typeface myFont = Typeface.createFromAsset(getAssets(), "Birthday Children.ttf");
+
+        // Apply the font to textview object
+        textView.setTypeface(myFont);
     }
 
     @Override protected void onDestroy()
