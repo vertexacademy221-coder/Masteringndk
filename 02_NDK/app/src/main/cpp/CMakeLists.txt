@@ -86,25 +86,6 @@ set(OPENSSL_SSL_LIBRARY ssl_static CACHE FILEPATH "" FORCE)
 
 add_subdirectory(third-party/curl)
 
-
-# =========================================================
-# FreeImage CONFIGURATION
-# =========================================================
-
-set (FREEIMAGE_DIR "${CMAKE_SOURCE_DIR}/third-party/FreeImage")
-
-add_library (
-    freeimage
-    SHARED
-    IMPORTED
-)
-
-set_target_properties (
-    freeimage 
-    PROPERTIES 
-    IMPORTED_LOCATION "${FREEIMAGE_DIR}/libs/${ANDROID_ABI}/libfreeimage.so")
-
-
 # Specify the name of target native libray. 
 # We want to build a shared library (libnative-lib.so)
 # and the code source is in file native-lib.cpp.
@@ -120,6 +101,7 @@ add_library(
 include_directories(
     "${CMAKE_SOURCE_DIR}/include"
     "${CMAKE_SOURCE_DIR}/third-party/curl/include"
+    "${CMAKE_SOURCE_DIR}/third-party/stb"
 )
 
 # Specify the static NDK library to locate
@@ -138,6 +120,7 @@ target_include_directories(
     "${ANDROID_NDK}/sources/android/native_app_glue"
 )
 
+
 # Defines the variable path name of the NDK library and
 # Get the location of the NDK library and stores it inside
 # that variable.
@@ -145,7 +128,6 @@ find_library(
     log-lib
     log
 )
-
 
 # Links NDK library against our Native library
 target_link_libraries(
@@ -155,9 +137,5 @@ target_link_libraries(
     libcurl
     ssl_static
     crypto_static
-    freeimage
     ${log-lib}
 )
-
-
-
