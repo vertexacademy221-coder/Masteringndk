@@ -86,6 +86,20 @@ set(OPENSSL_SSL_LIBRARY ssl_static CACHE FILEPATH "" FORCE)
 
 add_subdirectory(third-party/curl)
 
+# ==================================================
+# FREETYPE CONFIGURATION
+# ==================================================
+
+set(DISABLE_STATIC_LIBS OFF CACHE BOOL "Build static library" FORCE)
+set(DISABLE_SHARED_LIBS ON CACHE BOOL "Build shared library" FORCE)
+set(FT_WITH_ZLIB ON CACHE BOOL "Compile FreeType with system ZLib" FORCE)
+set(FT_WITH_BZIP2 OFF CACHE BOOL "Compile FreeType with BZip2" FORCE)
+set(FT_WITH_PNG OFF CACHE BOOL "Compile FreeType with PNG" FORCE)
+set(FT_WITH_HARFBUZZ OFF CACHE BOOL "Compile FreeType with HarfBuzz" FORCE)
+
+add_subdirectory(third-party/freetype)
+
+
 # Specify the name of target native libray. 
 # We want to build a shared library (libnative-lib.so)
 # and the code source is in file native-lib.cpp.
@@ -97,11 +111,12 @@ add_library(
 )
 
 # For the header files of our native library
-# go in src/main/cpp/include
+# Go in src/main/cpp/include
 include_directories(
     "${CMAKE_SOURCE_DIR}/include"
     "${CMAKE_SOURCE_DIR}/third-party/curl/include"
     "${CMAKE_SOURCE_DIR}/third-party/stb"
+    "${CMAKE_SOURCE_DIR}/third-party/freetype/include"
 )
 
 # Specify the static NDK library to locate
@@ -134,6 +149,7 @@ target_link_libraries(
     native-lib
     app-glue
     OpenAL
+    freetype
     libcurl
     ssl_static
     crypto_static

@@ -7,10 +7,17 @@
 #include <cmath>
 #include <vector>
 
+
 extern "C"
 {
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
+}
+
+extern "C"
+{
+#include <ft2build.h>
+#include FT_FREETYPE_H // Équivaut à inclure <freetype/freetype.h>
 }
 
 #define LOG_TAG "NDK-AudioEngine"
@@ -29,8 +36,22 @@ ALuint      audio_source = 0;
 
 void initCurl();
 size_t MemoryCallback( void* P, size_t Size, size_t Num, void* );
+void initFreeTypeExample();
 
 /* ============ Function definition ======= */
+
+void initFreeTypeExample() {
+    FT_Library library;
+    FT_Error error = FT_Init_FreeType(&library);
+    
+    if (error) {
+        // Erreur d'initialisation
+    }
+    
+    // Votre code pour charger des polices (.ttf) ici...
+    
+    FT_Done_FreeType(library);
+}
 
 size_t MemoryCallback( void* P, size_t Size, size_t Num, void* )
 {
